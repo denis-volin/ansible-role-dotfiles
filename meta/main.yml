@@ -1,0 +1,17 @@
+galaxy_info:
+  role_name: dotfiles
+  description: Set up dotfiles for user
+  author: denis-volin
+  license: MIT
+
+  min_ansible_version: "2.15.0"
+
+  platforms:
+    - name: Debian
+      versions:
+        - trixie
+
+  galaxy_tags:
+    - dotfiles
+    - bootstrap
+    - debian
