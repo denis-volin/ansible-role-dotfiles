@@ -23,6 +23,7 @@
     repo: "{{ item }}"
     dest: ~/.local/share/zsh/plugins/{{ item | basename | regex_replace('\\.git$', '') }}
     version: master
+    depth: 1
   loop:
     - https://github.com/Aloxaf/fzf-tab
     - https://github.com/jeffreytse/zsh-vi-mode
